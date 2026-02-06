@@ -52,7 +52,7 @@ pipeline {
                     netlify --version
                     echo "Deploying to production"
                     netlify status
-                    netlify deploy --dir=build --prod
+                    netlify deploy
                 '''
             }
         }
